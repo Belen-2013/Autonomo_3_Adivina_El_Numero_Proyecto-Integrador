@@ -1,52 +1,93 @@
-# 🎯 Adivina el Número - Juego en Python
+# 🎮 ADIVINA EL NÚMERO
 
-![Proyecto](https://img.shields.io/badge/Proyecto-Primer%20Proyecto-green)
-![Estado](https://img.shields.io/badge/Estado-avance-success)
+![Juego Adivina el Número](https://img.icons8.com/color/96/000000/question-mark.png)
 
-## 📌 Descripción del proyecto
+## 👩‍💻 Datos del Proyecto
 
-**Adivina el Número** es un juego desarrollado en Python donde el usuario debe descubrir un número secreto generado aleatoriamente por el sistema.
-
-El programa genera un número entre **1 y 500** y permite al jugador realizar diferentes intentos hasta encontrar la respuesta correcta. Durante el proceso, el sistema proporciona pistas indicando si el número ingresado es mayor o menor que el número oculto.
-
-Este proyecto fue desarrollado como una introducción a la programación, aplicando estructuras fundamentales de Python como:
-
-- Variables
-- Condicionales (`if`, `else`)
-- Ciclos repetitivos (`while`)
-- Entrada y salida de datos
-- Librerías de Python
-- Generación de números aleatorios
-
+**Nombre del proyecto:** Adivina el Número  
+**Nombre de la estudiante:** María Belén Beltrán Beltrán  
+**Carrera:** Inteligencia Artificial  
+**Nivel:** Primer semestre  
+**Fecha de elaboración:** 27/06/2026  
 
 ---
 
-# 🎮 Funcionamiento del juego
+# 📌 Descripción del Proyecto
 
-El flujo del juego es el siguiente:
+**Adivina el Número** es un juego desarrollado en Python utilizando la librería **Pygame**, que permite crear una interfaz gráfica interactiva para que el usuario pueda participar en el juego.
 
-1. El sistema muestra un mensaje de bienvenida.
-2. Se genera un número secreto aleatorio entre 1 y 500.
-3. El usuario ingresa un número como intento.
-4. El programa compara el número ingresado con el número oculto.
-5. Si el usuario acierta:
-   - Se muestra un mensaje de felicitación.
-   - Se indica la cantidad de intentos realizados.
-6. Si falla:
-   - El sistema indica si debe ingresar un número mayor o menor.
-7. El juego continúa hasta encontrar el número correcto.
-
+El sistema genera un número secreto de manera aleatoria y el jugador debe intentar descubrirlo ingresando diferentes valores mediante el teclado. Durante el proceso, el programa proporciona pistas indicando si el número ingresado es mayor o menor que el número oculto, ayudando al usuario a encontrar la respuesta en el menor número de intentos posible.
 
 ---
 
-# 🛠️ Tecnologías utilizadas
+# 🎯 Objetivo del Sistema
 
-| Tecnología | Uso |
-|------------|-----|
-| 🐍 Visual Code | Desarrollo del juego |
-| 🎲 Librería Random | Generación del número aleatorio |
-| 📝 GitHub | Almacenamiento y documentación del proyecto |
+El objetivo de este sistema es permitir que el usuario adivine un número secreto generado aleatoriamente mediante intentos interactivos, utilizando pistas que faciliten la búsqueda y logrando encontrar la respuesta en el menor tiempo posible.
 
+Además, busca aplicar conceptos fundamentales de programación como:
+- Variables.
+- Condicionales.
+- Ciclos repetitivos.
+- Entrada de datos.
+- Generación de números aleatorios.
+- Desarrollo de interfaces gráficas.
 
 ---
 
+# ⚙️ Funcionalidades del Sistema
+
+El programa cuenta con las siguientes funcionalidades:
+
+✅ **Generación de números aleatorios**  
+- El sistema crea un número secreto utilizando la librería `random`.
+- El número generado se encuentra dentro de un rango establecido.
+
+✅ **Ingreso de números mediante teclado**  
+- El usuario puede escribir sus intentos directamente en la interfaz gráfica.
+
+✅ **Comparación lógica del intento**  
+- El sistema compara el número ingresado por el usuario con el número secreto.
+- Determina si la respuesta es correcta o necesita otro intento.
+
+✅ **Sistema de pistas**  
+- Si el número ingresado es mayor, el programa indica que debe buscar un número menor.
+- Si el número ingresado es menor, indica que debe buscar un número mayor.
+
+✅ **Mensajes de respuesta**
+- Muestra información al usuario durante el juego.
+- Indica cuando el jugador gana.
+
+✅ **Contador de intentos**
+- Registra la cantidad de veces que el usuario intenta adivinar el número.
+
+✅ **Interfaz gráfica con Pygame**
+- Cuenta con una ventana interactiva.
+- Presenta títulos, mensajes, número ingresado e intentos.
+- Incluye diseño visual mediante colores y textos.
+
+---
+
+# 🛠️ Tecnologías Utilizadas
+
+- **Lenguaje de programación:** Python 🐍
+- **Librería gráfica:** Pygame
+- **Generación aleatoria:** Random
+
+---
+
+# 🧠 Funcionamiento del Programa
+
+1. El sistema inicia creando la interfaz gráfica.
+2. Se genera un número secreto aleatorio.
+3. El usuario ingresa un número mediante el teclado.
+4. El programa compara el intento con el número oculto.
+5. Se muestra una pista:
+   - Número ingresado demasiado alto.
+   - Número ingresado demasiado bajo.
+   - Número correcto.
+6. Se incrementa el contador de intentos.
+7. El juego continúa hasta que el usuario encuentre el número correcto.
+
+---
+
+# 📂 Estructura del Proyecto
