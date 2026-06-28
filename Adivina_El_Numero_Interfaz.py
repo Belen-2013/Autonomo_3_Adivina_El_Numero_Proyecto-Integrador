@@ -148,7 +148,7 @@ while jugando:
 
                     else:
 
-                        mensaje = "El número ingresado es bajo \n intenta con un número mayor"
+                        mensaje = "El número ingresado es bajo, \n intenta con un número mayor"
 
 
                     numero = ""
